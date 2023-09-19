@@ -10,7 +10,7 @@
 <body class="bg-black">
 
     <!-- Start Navbar -->
-    <nav class="relative container mx-auto p-6 text-white flex justify-between gap-14 after:content-[''] after:absolute after:left-6 after:bottom-1 after:w-[calc(100%-48px)] after:h-[1px] after:bg-white">
+    <nav class="absolute top-0 left-1/2 -translate-x-1/2 z-50 container p-6 text-white flex justify-between gap-14 after:content-[''] after:absolute after:left-6 after:bottom-1 after:w-[calc(100%-48px)] after:h-[1px] after:bg-white">
         <img  src="./public/images/logo kasper.png" alt="kasper logo">
         <div class="flex justify-between items-center gap-11">
             <div class="cursor-pointer lg:hidden">
@@ -42,6 +42,19 @@
         </div>
     </nav>
     <!-- Start End -->
+
+    <!-- Start main content -->
+    <main>
+
+        <!-- Start slider -->
+        <section class="relative before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-black/60">
+            <img class="h-screen w-screen" src="./public/images/landing kasper.jpg" alt="slider image">
+        </section>
+        <!-- End slider -->
+
+    </main>
+    <!-- End main content -->
+
 
     <script src="./public/js/index.js"></script>
 </body>
