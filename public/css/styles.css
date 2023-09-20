@@ -1274,3 +1274,7 @@ video {
     display: block;
   }
 }
+
+.hover\:\[\&\>div\]\:block>div:hover {
+  display: block;
+}
