@@ -16,7 +16,7 @@
             <div class="cursor-pointer lg:hidden">
                 <i id="menu-btn" class="fa-solid fa-bars text-2xl"></i>
             </div>
-            <ul id="menu" class="absolute w-[calc(100%-48px)] duration-500 h-0 overflow-hidden left-6 top-full lg:relative lg:h-fit lg:overflow-visible lg:top-0 lg:left-0 lg:flex lg:items-center">
+            <ul id="menu" class="absolute w-[calc(100%-48px)] transition-[height] duration-500 h-0 overflow-hidden left-6 top-full lg:relative lg:h-fit lg:overflow-visible lg:top-0 lg:left-0 lg:flex lg:items-center">
                 <li class="py-2 lg:py-0 links-wrapper">
                     <a class="block pb-2.5 border-b-[1px] hover:border-b-blue-400 hover:text-blue-400 lg:inline lg:relative lg:px-5 lg:pb-7 lg:border-b-0 lg:hover:after:block  after:content-[''] after:absolute after:bottom-0 after:z-10 after:left-0 after:w-full after:h-[1px] after:bg-blue-400 after:hidden link" href="#">Home</a>
                 </li>
@@ -41,14 +41,14 @@
             </div>
         </div>
     </nav>
-    <!-- Start End -->
+    <!-- End Navbar -->
 
     <!-- Start main content -->
     <main>
 
         <!-- Start slider -->
-        <section class="relative before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-black/60">
-            <img class="max-w-full" src="./public/images/landing kasper.jpg" alt="slider image">
+        <section class="relative w-screen h-screen before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-black/60">
+            <img class="w-full aspect-[9/16]" src="./public/images/landing kasper.jpg" alt="slider image">
         </section>
         <!-- End slider -->
 
