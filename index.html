@@ -191,14 +191,47 @@
         <!-- Start video -->
         <section class="relative my-16 w-full aspect-video before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black/60 before:z-10">
             <video class="relative w-full h-full" src="./public/videos/awesome-video.mp4" autoplay></video>
-            <div class="absolute w-full top-1/2 -translate-y-1/2 bg-secondary z-20 h-3/4 lg:h-1/3 flex flex-col justify-center items-center gap-5">
-                <h1 class="text-xl text-center sm:text-5xl font-black text-white uppercase">super awesome video here</h1>
-                <span class="block text-xl sm:text-3xl text-white capitalize">its all you need</span>
+            <div class="absolute w-full top-1/2 -translate-y-1/2 bg-secondary z-20 h-3/4 md:h-1/3 flex flex-col justify-center items-center gap-5">
+                <h1 class="text-xl text-center sm:text-4xl font-black text-white uppercase">super awesome video here</h1>
+                <span class="block text-xl sm:text-2xl text-white capitalize">its all you need</span>
                 <button class="bg-black text-white py-2 px-5">see more</button>
             </div>
         </section>
         <!-- End video -->
 
+        <!-- Start numbers -->
+        <section class="py-16">
+            <div class="container mx-auto px-6">
+                <h1 class="relative w-fit mx-auto text-5xl uppercase pb-5 before:content-empty before:absolute before:h-0.5 before:w-full before:left-0 before:top-full before:bg-black after:content-empty after:absolute after:w-6 after:h-6 after:rounded-full after:border-2 after:border-black after:left-1/2 after:-translate-x-1/2 after:top-[calc(100%-12px)] after:bg-white">Numbers</h1>
+                <p class="w-full box-content mx-auto mt-5 mb-16 text-center text-xl text-gray-400 md:w-[500px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <img class="hidden lg:block mx-auto -mb-32" src="./public/images/about.png" alt="numbers image">
+            <div class="relative flex justify-center items-center py-10 min-h-[500px] w-full bg-[url('/public/images/stats.png')] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black/70">
+                <div class="relative w-3/4 py-4 bg-secondary grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                    <div class="flex flex-col gap-3 items-center min-w-[200px]">
+                        <i class="fas fa-mug-hot flex justify-center items-center w-12 h-12 text-2xl text-white bg-black rounded-full"></i>
+                        <span class="block text-5xl font-black text-white">1.236</span>
+                        <span class="block text-sm text-white">Coffee Drinks</span>
+                    </div>
+                    <div class="flex flex-col gap-3 items-center min-w-[200px]">
+                        <i class="far fa-folder flex justify-center items-center w-12 h-12 text-2xl text-white bg-black rounded-full"></i>
+                        <span class="block text-5xl font-black text-white">256</span>
+                        <span class="block text-sm text-white">Completed Projects</span>
+                    </div>
+                    <div class="flex flex-col gap-3 items-center min-w-[200px]">
+                        <i class="far fa-envelope flex justify-center items-center w-12 h-12 text-2xl text-white bg-black rounded-full"></i>
+                        <span class="block text-5xl font-black text-white">1.743</span>
+                        <span class="block text-sm text-white">Mail Sent</span>
+                    </div>
+                    <div class="flex flex-col gap-3 items-center min-w-[200px]">
+                        <i class="fas fa-trophy flex justify-center items-center w-12 h-12 text-2xl text-white bg-black rounded-full"></i>
+                        <span class="block text-5xl font-black text-white">17</span>
+                        <span class="block text-sm text-white">Awards Received</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End numbers -->
 
     </main>
     <!-- End main content -->
